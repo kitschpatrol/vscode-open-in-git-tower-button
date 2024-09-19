@@ -1,0 +1,65 @@
+{
+	"name": "open-in-git-tower-button",
+	"version": "0.0.0",
+	"type": "commonjs",
+	"displayName": "Open in Git Tower Button",
+	"description": "Open the current repository in the Tower Git client via a button in the VS Code status bar.",
+	"categories": [
+		"Other"
+	],
+	"repository": "github:kitschpatrol/vscode-open-in-git-tower-button",
+	"homepage": "https://github.com/kitschpatrol/vscode-open-in-git-tower-button#readme",
+	"bugs": {
+		"url": "https://github.com/kitschpatrol/vscode-open-in-git-tower-button/issues"
+	},
+	"author": {
+		"name": "Eric Mika",
+		"email": "eric@ericmika.com",
+		"url": "https://ericmika.com"
+	},
+	"publisher": "kitschpatrol",
+	"license": "MIT",
+	"private": true,
+	"packageManager": "pnpm@9.10.0",
+	"engines": {
+		"node": ">=18.15.11",
+		"pnpm": ">=9.0.0",
+		"vscode": "^1.93.0"
+	},
+	"main": "./dist/extension.js",
+	"files": [
+		"LICENSE.txt",
+		"dist",
+		"res"
+	],
+	"keywords": [
+		"vscode",
+		"vsc",
+		"extension",
+		"git",
+		"tower"
+	],
+	"scripts": {
+		"build": "tsc -p ./",
+		"clean": "git rm -f pnpm-lock.yaml ; git clean -fdX",
+		"fix": "shared-config --fix",
+		"lint": "shared-config --lint ; tsc --noEmit",
+		"pack": "pnpm run build && vsce package --no-dependencies",
+		"release": "bumpp --commit 'Release: %s' && pnpm run build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')"
+	},
+	"devDependencies": {
+		"@kitschpatrol/shared-config": "^4.7.10",
+		"@types/node": "18.15.11",
+		"@types/vscode": "^1.93.0",
+		"@vscode/vsce": "^3.1.0",
+		"bumpp": "^9.5.2",
+		"typescript": "^5.6.2"
+	},
+	"icon": "res/icon.png",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"extensionPack": [
+		"fabiospampinato.vscode-open-in-gittower"
+	]
+}
