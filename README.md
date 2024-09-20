@@ -16,7 +16,7 @@
 } -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee\&label=VS%20Code%20Marketplace\&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button)
 
 <!-- /badges -->
 
@@ -38,11 +38,7 @@ ext install kitschpatrol.open-in-git-tower-button
 
 After which you should see a new icon in your status bar:
 
-<!-- banner -->
-
 ![open-in-git-tower-button banner](assets/screenshot.webp)
-
-<!-- /banner -->
 
 Due to a lack of an ideal [codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html), the solid "filter" icon will have to suffice with its tower-approximating silhouette.
 
