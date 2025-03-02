@@ -47,11 +47,11 @@
 		"onStartupFinished"
 	],
 	"devDependencies": {
-		"@kitschpatrol/shared-config": "^5.0.6",
+		"@kitschpatrol/shared-config": "^5.0.8",
 		"@types/node": "18.15.11",
-		"@types/vscode": "^1.93.0",
-		"@vscode/vsce": "^3.1.0",
-		"bumpp": "^9.5.2",
+		"@types/vscode": "1.93.0",
+		"@vscode/vsce": "^3.2.2",
+		"bumpp": "^10.0.3",
 		"typescript": "~5.7.3"
 	},
 	"extensionPack": [
