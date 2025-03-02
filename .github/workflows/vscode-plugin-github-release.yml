@@ -1,4 +1,4 @@
-name: Create Obsidian Plugin GitHub Release
+name: Create VS Code Plugin GitHub Release
 
 on:
   push:
