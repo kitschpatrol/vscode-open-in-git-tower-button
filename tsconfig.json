@@ -1,14 +1,7 @@
 {
-	"compilerOptions": {
-		"module": "Node16",
-		"target": "ES2022",
-		"outDir": "dist",
-		"lib": ["ES2022"],
-		"sourceMap": true,
-		"rootDir": "src",
-		"strict": true,
-		"noImplicitReturns": true,
-		"noFallthroughCasesInSwitch": true,
-		"noUnusedParameters": true
-	}
+	"extends": "@kitschpatrol/typescript-config",
+
+	// Includes project dot-files files for typescript-eslint integration
+	"include": ["**/*", "**/**.*"],
+	"exclude": ["**/dist/", "**/bin/"]
 }
