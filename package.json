@@ -1,7 +1,7 @@
 {
 	"name": "open-in-git-tower-button",
 	"displayName": "Open in Git Tower Button",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"private": true,
 	"description": "Open the current repository in the Tower Git client via a button in the VS Code status bar.",
 	"categories": [
