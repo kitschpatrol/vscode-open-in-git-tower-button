@@ -63,15 +63,5 @@
 		"node": ">=18.15.11",
 		"vscode": "^1.93.0"
 	},
-	"icon": "res/icon.png",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@vscode/vsce-sign",
-			"keytar",
-			"puppeteer"
-		],
-		"overrides": {
-			"eslint-plugin-markdown": "^5.1.0"
-		}
-	}
+	"icon": "res/icon.png"
 }
