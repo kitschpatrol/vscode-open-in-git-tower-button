@@ -48,7 +48,7 @@
 		"onStartupFinished"
 	],
 	"devDependencies": {
-		"@kitschpatrol/shared-config": "^5.10.0",
+		"@kitschpatrol/shared-config": "^5.11.0",
 		"@types/node": "18.15.11",
 		"@types/vscode": "1.93.0",
 		"@vscode/vsce": "^3.7.1",
@@ -58,7 +58,7 @@
 	"extensionPack": [
 		"fabiospampinato.vscode-open-in-gittower"
 	],
-	"packageManager": "pnpm@10.25.0",
+	"packageManager": "pnpm@10.26.2",
 	"engines": {
 		"node": ">=18.15.11",
 		"vscode": "^1.93.0"

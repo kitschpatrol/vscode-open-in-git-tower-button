@@ -7,6 +7,7 @@
 <!-- /title -->
 
 <!-- badges {
+  npm: [],
   custom: {
     "Visual Studio Marketplace Version": {
       image: "https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code",
