@@ -17,7 +17,7 @@
 } -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee\&label=VS%20Code%20Marketplace\&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button)
 
 <!-- /badges -->
 
@@ -29,7 +29,7 @@
 
 ## Getting started
 
-_Let's assume you have [VS Code](https://code.visualstudio.com/) and [Tower](https://www.git-tower.com/) installed._
+_Let's assume you have [VS Code](https://code.visualstudio.com) and [Tower](https://www.git-tower.com) installed._
 
 Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button), or run the following in VS Code's command palette:
 
@@ -49,9 +49,9 @@ Due to a lack of an ideal [codicon](https://microsoft.github.io/vscode-codicons/
 
 ## Acknowledgments
 
-This trivial extension layers over [Fabio Spampinato's](https://fabiospampinato.com/) [Open in GitTower](https://github.com/fabiospampinato/vscode-open-in-gittower), which does the heavy lifting of actually opening things in Tower.
+This trivial extension layers over [Fabio Spampinato's](https://fabiospampinato.com) [Open in GitTower](https://github.com/fabiospampinato/vscode-open-in-gittower), which does the heavy lifting of actually opening things in Tower.
 
-[Anthony Fu's](https://antfu.me/) [VS Code Open in GitHub Button](https://github.com/antfu/vscode-open-in-github-button) extension provided a basic template for the approach.
+[Anthony Fu's](https://antfu.me) [VS Code Open in GitHub Button](https://github.com/antfu/vscode-open-in-github-button) extension provided a basic template for the approach.
 
 <!-- contributing -->
 
