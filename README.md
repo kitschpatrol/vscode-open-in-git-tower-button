@@ -65,6 +65,6 @@ This trivial extension layers over [Fabio Spampinato's](https://fabiospampinato.
 
 ## License
 
-[MIT](license.txt) © Eric Mika
+[MIT](LICENSE.txt) © Eric Mika
 
 <!-- /license -->
