@@ -42,13 +42,14 @@
 		"fix": "ksc fix",
 		"lint": "ksc lint",
 		"pack": "pnpm run build && vsce package --no-dependencies",
-		"release": "bumpp --commit 'Release: %s' && pnpm run build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')"
+		"release": "bumpp --commit 'Release: %s' && pnpm run build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')",
+		"test": "echo \"No tests specified\" && exit 0"
 	},
 	"activationEvents": [
 		"onStartupFinished"
 	],
 	"devDependencies": {
-		"@kitschpatrol/shared-config": "^6.1.0",
+		"@kitschpatrol/shared-config": "^7.1.0",
 		"@types/node": "18.15.11",
 		"@types/vscode": "1.93.0",
 		"@vscode/vsce": "^3.7.1",
@@ -66,7 +67,7 @@
 	"devEngines": {
 		"runtime": {
 			"name": "node",
-			"version": ">=20.19.0"
+			"version": ">=22.18.0"
 		}
 	},
 	"icon": "res/icon.png"
