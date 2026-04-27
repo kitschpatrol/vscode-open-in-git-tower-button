@@ -38,28 +38,29 @@
 	],
 	"scripts": {
 		"build": "tsc -p ./tsconfig.build.json",
-		"clean": "git rm -f pnpm-lock.yaml ; git clean -fdX",
+		"clean": "shx rm -f pnpm-lock.yaml && git clean -fdX -e !.claude/",
 		"fix": "ksc fix",
 		"lint": "ksc lint",
-		"pack": "pnpm run build && vsce package --no-dependencies",
-		"release": "bumpp --commit 'Release: %s' && pnpm run build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')",
+		"pack": "pnpm build && vsce package --no-dependencies",
+		"release": "bumpp --commit 'Release: %s' && pnpm build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')",
 		"test": "echo \"No tests specified\" && exit 0"
 	},
 	"activationEvents": [
 		"onStartupFinished"
 	],
 	"devDependencies": {
-		"@kitschpatrol/shared-config": "^7.1.0",
+		"@kitschpatrol/shared-config": "^7.5.1",
 		"@types/node": "18.15.11",
 		"@types/vscode": "1.93.0",
-		"@vscode/vsce": "^3.7.1",
+		"@vscode/vsce": "^3.9.1",
 		"bumpp": "^11.0.1",
+		"shx": "^0.4.0",
 		"typescript": "~5.8.3"
 	},
 	"extensionPack": [
 		"fabiospampinato.vscode-open-in-gittower"
 	],
-	"packageManager": "pnpm@10.33.0",
+	"packageManager": "pnpm@10.33.2",
 	"engines": {
 		"node": ">=18.15.11",
 		"vscode": "^1.93.0"

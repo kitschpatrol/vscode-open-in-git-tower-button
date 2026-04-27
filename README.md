@@ -1,14 +1,14 @@
-<!-- title ({ titleCase: true, prefix: "VS Code ", postfix: " Extension" }) -->
+<!-- title({ titleCase: true, prefix: "VS Code ", postfix: " Extension" }) -->
 
 # VS Code Open In Git Tower Button Extension
 
 <!-- /title -->
 
-<!-- badges ({
+<!-- badges({
   npm: [],
   custom: {
     "Visual Studio Marketplace Version": {
-      image: "https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code",
+      image: "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkitschpatrol%2Fvscode-open-in-git-tower-button%2Frefs%2Fheads%2Fmain%2Fpackage.json&query=version&label=VS%20Code%20Marketplace",
       link: "https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button",
     },
   }
@@ -16,7 +16,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI](https://github.com/kitschpatrol/vscode-open-in-git-tower-button/actions/workflows/ci.yml/badge.svg)](https://github.com/kitschpatrol/vscode-open-in-git-tower-button/actions/workflows/ci.yml)
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kitschpatrol.open-in-git-tower-button.svg?color=eee&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button)
+[![Visual Studio Marketplace Version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkitschpatrol%2Fvscode-open-in-git-tower-button%2Frefs%2Fheads%2Fmain%2Fpackage.json&query=version&label=VS%20Code%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=kitschpatrol.open-in-git-tower-button)
 
 <!-- /badges -->
 
@@ -44,7 +44,7 @@ Due to a lack of an ideal [codicon](https://microsoft.github.io/vscode-codicons/
 
 ## Maintainers
 
-[@kitschpatrol](https://github.com/kitschpatrol)
+[kitschpatrol](https://github.com/kitschpatrol)
 
 ## Acknowledgments
 
@@ -56,7 +56,11 @@ This trivial extension layers over [Fabio Spampinato's](https://fabiospampinato.
 
 ## Contributing
 
-[Issues](https://github.com/kitschpatrol/vscode-open-in-git-tower-button/issues) and pull requests are welcome.
+[Issues](https://github.com/kitschpatrol/vscode-open-in-git-tower-button/issues) are welcome and appreciated.
+
+Please open an issue to discuss changes before submitting a pull request. Unsolicited PRs (especially AI-generated ones) are unlikely to be merged.
+
+This repository uses [@kitschpatrol/shared-config](https://github.com/kitschpatrol/shared-config) (via its `ksc` CLI) for linting and formatting, plus [MDAT](https://github.com/kitschpatrol/mdat) for readme placeholder expansion.
 
 <!-- /contributing -->
 
@@ -64,6 +68,6 @@ This trivial extension layers over [Fabio Spampinato's](https://fabiospampinato.
 
 ## License
 
-[MIT](LICENSE.txt) © Eric Mika
+[MIT](LICENSE.txt) © [Eric Mika](https://ericmika.com)
 
 <!-- /license -->
