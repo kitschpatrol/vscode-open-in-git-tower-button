@@ -49,18 +49,18 @@
 		"onStartupFinished"
 	],
 	"devDependencies": {
-		"@kitschpatrol/shared-config": "^7.5.1",
+		"@kitschpatrol/shared-config": "^7.6.2",
 		"@types/node": "18.15.11",
 		"@types/vscode": "1.93.0",
 		"@vscode/vsce": "^3.9.1",
-		"bumpp": "^11.0.1",
+		"bumpp": "^11.1.0",
 		"shx": "^0.4.0",
 		"typescript": "~5.8.3"
 	},
 	"extensionPack": [
 		"fabiospampinato.vscode-open-in-gittower"
 	],
-	"packageManager": "pnpm@10.33.2",
+	"packageManager": "pnpm@11.1.2",
 	"engines": {
 		"node": ">=18.15.11",
 		"vscode": "^1.93.0"
@@ -68,7 +68,7 @@
 	"devEngines": {
 		"runtime": {
 			"name": "node",
-			"version": ">=22.18.0"
+			"version": ">=22.22.2"
 		}
 	},
 	"icon": "res/icon.png"
