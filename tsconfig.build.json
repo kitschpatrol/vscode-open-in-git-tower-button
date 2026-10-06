@@ -11,7 +11,5 @@
 		"outDir": "dist",
 		"sourceMap": true
 	},
-
-	// Includes project dot-files files for typescript-eslint integration
-	"include": ["src/**/*"]
+	"include": ["src/"]
 }

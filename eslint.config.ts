@@ -16,7 +16,7 @@ export default eslintConfig(
 		},
 	},
 	{
-		files: ['LICENSE.txt', 'README.md'],
+		files: ['README.md'],
 		rules: {
 			'unicorn/filename-case': 'off',
 		},
