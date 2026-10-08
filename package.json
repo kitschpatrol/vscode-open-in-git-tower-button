@@ -50,7 +50,7 @@
 		"onStartupFinished"
 	],
 	"devDependencies": {
-		"@kitschpatrol/shared-config": "^8.12.1",
+		"@kitschpatrol/shared-config": "^8.13.1",
 		"@types/node": "18.15.11",
 		"@types/vscode": "1.93.0",
 		"@vscode/vsce": "^4.0.0",
