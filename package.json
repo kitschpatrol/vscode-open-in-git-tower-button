@@ -51,20 +51,20 @@
 	],
 	"devDependencies": {
 		"@kitschpatrol/shared-config": "^8.13.1",
-		"@types/node": "18.15.11",
+		"@types/node": "~18.15.13",
 		"@types/vscode": "1.93.0",
 		"@vscode/vsce": "^4.0.0",
 		"bumpp": "^12.3.0",
 		"shx": "^0.4.0",
-		"skills": "^1.7.0",
+		"skills": "^1.7.2",
 		"typescript": "~6.0.3"
 	},
 	"extensionPack": [
 		"fabiospampinato.vscode-open-in-gittower"
 	],
-	"packageManager": "pnpm@12.9.1",
+	"packageManager": "pnpm@12.11.2",
 	"engines": {
-		"node": ">=18.15.11",
+		"node": "^18.15.11 || ^20.0.0 || ^22.0.0 || ^24.0.0 || >=26.0.0",
 		"vscode": "^1.93.0"
 	},
 	"devEngines": {
