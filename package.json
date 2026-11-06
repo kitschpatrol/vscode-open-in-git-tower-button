@@ -42,13 +42,14 @@
 		"fix": "ksc fix",
 		"lint": "ksc lint",
 		"pack": "pnpm build && vsce package --no-dependencies",
-		"release": "bumpp --commit 'Release: %s' && pnpm build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')",
+		"release": "bumpp --commit 'Release: %s' --all --execute 'chagent' && pnpm build && vsce publish --no-dependencies --no-update-package-json --no-git-tag-version --pat $(op read 'op://Personal/Azure VS Code/credential')",
 		"test": "echo \"No tests specified\" && exit 0"
 	},
 	"activationEvents": [
 		"onStartupFinished"
 	],
 	"devDependencies": {
+		"@kitschpatrol/chagent": "0.4.0",
 		"@kitschpatrol/shared-config": "^8.14.0",
 		"@types/node": "~18.15.13",
 		"@types/vscode": "1.93.0",

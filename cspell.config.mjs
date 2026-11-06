@@ -1,5 +1,6 @@
 import { cspellConfig } from '@kitschpatrol/cspell-config'
 
 export default cspellConfig({
-	words: ['Fabio', 'Spampinato'],
+	ignorePaths: ['**/changelog.md'],
+	words: ['chagent', 'Fabio', 'Spampinato'],
 })

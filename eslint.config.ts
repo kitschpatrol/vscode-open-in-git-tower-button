@@ -2,6 +2,7 @@ import { eslintConfig } from '@kitschpatrol/eslint-config'
 
 export default eslintConfig(
 	{
+		ignores: ['**/changelog.md'],
 		json: {
 			overrides: {
 				// VS Code bundler needs LICENSE.txt listed in the package.json
