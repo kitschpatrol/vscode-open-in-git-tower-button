@@ -61,7 +61,7 @@
 	"extensionPack": [
 		"fabiospampinato.vscode-open-in-gittower"
 	],
-	"packageManager": "pnpm@12.16.1",
+	"packageManager": "pnpm@12.23.0",
 	"engines": {
 		"node": "^18.15.11 || ^20.0.0 || ^22.0.0 || ^24.0.0 || >=26.0.0",
 		"vscode": "^1.93.0"
